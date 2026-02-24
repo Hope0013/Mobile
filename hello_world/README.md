@@ -102,3 +102,23 @@ cd
 - adicionar ADB e o Emulator as Variáveis de Ambiente
 - Criação da Imagem do Emulador - via sdkmanager
 - Build do Emulador - via sdkmanager
+
+### Criação de Projetos e Códigos da Linha de Comando
+
+- Criação de Projetos
+    - Flutter create nome_do_projeto
+        - Flags(parâmetros):
+            - --empty: Cria um aplicativo "vazio" (Hello World!);
+            - --platforms: Permite a seleção de uma plataforma de desenvolvimento;
+            EX.: --plataforms=android (criação do projeto será somente para a plataforma Android).
+    - Exemplo de criação de um aplicativo Android vazio:
+        - flutter create nome_do_app --empty --platforms=android;
+        - OBS: Nome do aplicativo: todas as letras minúsculas e separação de palavras com "_".
+    - Flutter Doctor:
+        - Permite correção de pequenos problemas no flutter e identificação dos parâmetros funcionais em relação as plataformas de desenvolvimento;
+        - Sempre rodar o flutter doctor no começo do desenvolvimento.
+    - Flutter Clean:
+        - Limpa cache do build(apaga o apk anterior).
+    - Flutter run - v:
+        - Build do app (apk).
+        
