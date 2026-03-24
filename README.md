@@ -129,3 +129,26 @@ cd
     - Outros comandos do flutter pub (dependências).
         - Flutter pub outdated (verifica se as dependências estão desatualizadas).
         - Flutter pub upgrade (atualiza as dependências do flutter pub).
+
+## Estrutura Básica de um Aplicativo em Flutter
+
+### Árvore de Widgets
+    ```mermaid
+    flowchart TD
+        subgraph MaterialApp ["MaterialApp"]
+        end
+        subgraph Janelas["Janelas"]
+            StateLess["StateLess"]
+            StatFull["StateFull"]
+        end
+        subgraph Scaffold["Scaffold"]
+            AppBar["AppBar"]
+            Body["Body"]
+            BTNBar["BTNBar"]
+            Drawer["Drawer"]
+            FAButton["FAButton"]
+            SnackBar["SnackBar"]
+        end
+        MaterialApp -> Janelas
+        Janelas -> Scaffold
+    ```
