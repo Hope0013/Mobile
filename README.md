@@ -133,7 +133,7 @@ cd
 ## Estrutura Básica de um Aplicativo em Flutter
 
 ### Árvore de Widgets
-    ```mermaid
+```mermaid
     flowchart TD
         subgraph MaterialApp ["MaterialApp"]
         end
@@ -151,4 +151,4 @@ cd
         end
         MaterialApp --> Janelas
         Janelas --> Scaffold
-    ```
+```
