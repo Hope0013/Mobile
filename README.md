@@ -134,7 +134,10 @@ cd
 
 ### Árvore de Widgets
 ```mermaid
+<<<<<<< HEAD
     
+=======
+>>>>>>> 418df0e01089153d183d3de42539ee88e0fa609f
     flowchart TD
         subgraph MaterialApp ["MaterialApp"]
         end
@@ -152,6 +155,7 @@ cd
         end
         MaterialApp --> Janelas
         Janelas --> Scaffold
+<<<<<<< HEAD
 
 ```
 ### Tipo de Janelas
@@ -171,3 +175,6 @@ cd
 |Multabilidade  |Não      |Sim      |
 |Uso Ideal      |Layouts fixos e exibição de dados estáticos|Interações do usúario, animações e dados dinâmicos|
 Armazenamento de Estado| build()|build()+setState()|
+=======
+```
+>>>>>>> 418df0e01089153d183d3de42539ee88e0fa609f
