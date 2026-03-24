@@ -133,7 +133,8 @@ cd
 ## Estrutura Básica de um Aplicativo em Flutter
 
 ### Árvore de Widgets
-    ```mermaid
+```mermaid
+    
     flowchart TD
         subgraph MaterialApp ["MaterialApp"]
         end
@@ -151,4 +152,22 @@ cd
         end
         MaterialApp --> Janelas
         Janelas --> Scaffold
-    ```
+
+```
+### Tipo de Janelas
+
+- StateLess;
+    Janelas Imutáveis - Uma vez construida ela não se altera
+    Obs.: Pode conter movimento (GIFs, Movies, Carrossel, Cards), mas não conseguimos alterar as imagens, os vídeos e os elementos de movimento depois de montados;
+
+- StateFull:
+    Janelas que permitem mudanças de estado(setState)
+    Obs.: Permite adicionar elementos a janela, como novas Imagens, Novos Textos, entre outros.
+
+- Comparando StateLess Vs StateFull
+
+|Caracteristicas|StateLess|StateFull|
+|---------------|---------|---------|
+|Multabilidade  |Não      |Sim      |
+|Uso Ideal      |Layouts fixos e exibição de dados estáticos|Interações do usúario, animações e dados dinâmicos|
+Armazenamento de Estado| build()|build()+setState()|
