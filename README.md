@@ -1,4 +1,4 @@
-# Programação Back-End: Aula do dia 27/01 - Configuração de Ambiente
+# Mobile: Aula do dia 27/01 - Configuração de Ambiente
 
 Nesta aula, o foco foi preparar o computador. Configuramos do zero o ambiente de desenvolvimento para garantir que todas as ferramentas estejam conversando entre si e que a estrutura de arquivos seja escalável.
 
